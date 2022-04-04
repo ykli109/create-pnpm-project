@@ -1,0 +1,28 @@
+{
+  "name": "pnpm-pj-cli",
+  "version": "1.0.1",
+  "description": "create pnpm project use template",
+  "main": "index.js",
+  "bin": {
+    "pnpm-pj-cli": "./index.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "scripts": {},
+  "author": "ykli109",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "rollup": "^3.18.0"
+  }
+}
